@@ -1,0 +1,107 @@
+@charset "utf-8";
+.title{
+	position: relative;
+	left: 20px;
+}
+.SignUpForm{
+	text-align: right
+}
+.LoginForm{
+	text-align: right
+}
+.SignUpButton{
+	background-color:  transparent;
+	border-color:transparent;
+	font-size: 18px;
+	transition-duration: 350ms;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+.SignUpButton:hover{
+	background-color: #22FF00;
+	border-radius: 20px;
+	
+}
+.LoginButton{
+	background-color:  transparent;
+	border-color:transparent;
+	font-size: 18px;
+	transition-duration: 350ms;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+.LoginButton:hover{
+	background-color: #1A00FF;
+	border-radius: 20px;
+	color:white;
+}
+.FormContainer{
+	background-color: #DCDCDC;
+	border-radius: 25px;
+	text-align: center;
+
+
+	font-size: 18px;
+}
+.AddCFSButton{
+	background-color: transparent;
+	border-color: transparent;
+	font-size: 18px;
+transition-duration: 350ms;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+}
+.AddCFSButton:hover{
+	background-color: #727272;
+	border-radius: 20px;
+}
+.avatar{
+	width: 90px;
+	border-radius: 100%;
+}
+.Header {
+  overflow: hidden;
+
+  padding: 20px 10px;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Header{
+		
+	
+	color: white;
+	background-color: #860000;
+	
+		
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+ 
+  border-radius: 4px;
+}
+
+.header-right {
+  float: right;
+}
+.link{
+text-align: right;
+	border-bottom: solid;
+	border-bottom-width: 0px;
+	color: white;
+	 text-decoration: none;
+	transition-property: all;
+	transition-timing-function: ease-in-out;
+	transition-duration: 350ms;
+}
+.link:hover{
+	color: #00FF3C;
+	border-bottom-width: 5px
+}
