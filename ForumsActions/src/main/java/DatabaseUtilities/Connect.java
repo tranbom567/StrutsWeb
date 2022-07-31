@@ -13,7 +13,7 @@ import java.sql.SQLException;
  * @author PC
  */
 public class Connect {
-    private static String url="jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true;databaseName=NTTForums;user=sa;password=duy08hoang";
+    private static String url="jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true;databaseName=NTTForums;user=username;password=####";
     public static Connection connectToDatabase() throws SQLException{
         Connection connection=DriverManager.getConnection(url);
         return connection;
